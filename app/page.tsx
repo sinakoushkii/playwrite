@@ -9,8 +9,8 @@ export const metadata:Metadata = {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start p-24 gap-2">
-      <h1 className="text-2xl text-yellow-500">Home Page</h1>
-      <Link href="/form">Go to Form</Link>
+      <h1 className="text-2xl text-yellow-500" role="heading">end to end test</h1>
+      <Link href="/form" role="link">Go to Form</Link>
     </main>
   );
 }
